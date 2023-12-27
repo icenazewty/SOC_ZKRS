@@ -327,6 +327,7 @@ int main(void)
 				if(timer_sample_flag == 1)
 				{
 						timer_sample_flag = 0;
+						timer_sample_flag++;
 				}
 		}
 }
